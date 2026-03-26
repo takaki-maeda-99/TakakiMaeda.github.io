@@ -1,7 +1,12 @@
+import Header from '@/src/components/Header/Header';
+
 export default function Home() {
   return (
-    <main>
-      <h1>Portfolio</h1>
-    </main>
+    <>
+      <Header />
+      <main style={{ paddingTop: '60px' }}>
+        <h1>Portfolio</h1>
+      </main>
+    </>
   );
 }

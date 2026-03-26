@@ -1,0 +1,17 @@
+.toggle {
+  background: var(--bg-alt);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  color: var(--ink);
+  transition: background 0.2s;
+}
+
+.toggle:hover {
+  background: var(--ink);
+  color: var(--bg);
+}
