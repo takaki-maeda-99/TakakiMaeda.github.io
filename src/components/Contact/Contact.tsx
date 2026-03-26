@@ -1,4 +1,5 @@
 import { useLanguage } from '@/src/context/LanguageContext';
+import { useReveal } from '@/src/hooks/useReveal';
 import styles from './Contact.module.css';
 import ja from '@/locales/ja.json';
 import en from '@/locales/en.json';
@@ -22,9 +23,10 @@ const contactLinks = [
 export default function Contact() {
   const { language } = useLanguage();
   const locale = language === 'ja' ? ja : en;
+  const ref = useReveal();
 
   return (
-    <section id="contact" className={styles.section}>
+    <section ref={ref} id="contact" className={`${styles.section} reveal`}>
       <h2 className={styles.sectionTitle}>{locale.sections.contact}</h2>
       <p className={styles.sectionSubtitle}>{locale.sections.contactSubtitle}</p>
       <div className={styles.links}>

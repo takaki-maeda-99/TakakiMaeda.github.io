@@ -1,4 +1,5 @@
 import { useLanguage } from '@/src/context/LanguageContext';
+import { useReveal } from '@/src/hooks/useReveal';
 import styles from './Hero.module.css';
 import ja from '@/locales/ja.json';
 import en from '@/locales/en.json';
@@ -6,9 +7,10 @@ import en from '@/locales/en.json';
 export default function Hero() {
   const { language } = useLanguage();
   const locale = language === 'ja' ? ja : en;
+  const ref = useReveal();
 
   return (
-    <section className={styles.hero}>
+    <section ref={ref} className={`${styles.hero} reveal`}>
       <div>
         <div className={styles.eyebrow}>{locale.hero.eyebrow}</div>
         <h1 className={styles.name}>

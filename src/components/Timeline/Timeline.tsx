@@ -1,4 +1,5 @@
 import { useLanguage } from '@/src/context/LanguageContext';
+import { useReveal } from '@/src/hooks/useReveal';
 import type { TimelineEvent } from '@/src/types/content';
 import styles from './Timeline.module.css';
 import ja from '@/locales/ja.json';
@@ -11,9 +12,10 @@ interface Props {
 export default function Timeline({ events }: Props) {
   const { language, t } = useLanguage();
   const locale = language === 'ja' ? ja : en;
+  const ref = useReveal();
 
   return (
-    <section id="story" className={styles.section}>
+    <section ref={ref} id="story" className={`${styles.section} reveal`}>
       <h2 className={styles.sectionTitle}>{locale.sections.story}</h2>
       <p className={styles.sectionSubtitle}>{locale.sections.storySubtitle}</p>
       <div className={styles.timeline}>

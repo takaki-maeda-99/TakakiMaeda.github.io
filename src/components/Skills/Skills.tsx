@@ -1,4 +1,5 @@
 import { useLanguage } from '@/src/context/LanguageContext';
+import { useReveal } from '@/src/hooks/useReveal';
 import type { SkillCategory } from '@/src/types/content';
 import styles from './Skills.module.css';
 import ja from '@/locales/ja.json';
@@ -11,9 +12,10 @@ interface Props {
 export default function Skills({ categories }: Props) {
   const { language, t } = useLanguage();
   const locale = language === 'ja' ? ja : en;
+  const ref = useReveal();
 
   return (
-    <section id="skills" className={styles.section}>
+    <section ref={ref} id="skills" className={`${styles.section} reveal`}>
       <h2 className={styles.sectionTitle}>{locale.sections.skills}</h2>
       <p className={styles.sectionSubtitle}>{locale.sections.skillsSubtitle}</p>
       <div className={styles.categories}>
