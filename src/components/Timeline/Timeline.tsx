@@ -33,7 +33,7 @@ export default function Timeline({ events }: Props) {
             {event.image && (
               <img
                 className={styles.itemImage}
-                src={event.image}
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${event.image}`}
                 alt={t(event.title, event.titleEn)}
               />
             )}

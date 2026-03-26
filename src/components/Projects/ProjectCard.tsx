@@ -17,7 +17,7 @@ export default function ProjectCard({ project, variant }: Props) {
       {project.image && (
         <img
           className={styles.cardImage}
-          src={project.image}
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${project.image}`}
           alt={t(project.title, project.titleEn)}
         />
       )}

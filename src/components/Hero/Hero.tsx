@@ -28,7 +28,7 @@ export default function Hero() {
         </div>
       </div>
       <div className={styles.visual}>
-        <img src="/images/hero/profile.jpg" alt="Takaki Maeda" />
+        <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/hero/profile.jpg`} alt="Takaki Maeda" />
       </div>
     </section>
   );
