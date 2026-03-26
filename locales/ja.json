@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "story": "ストーリー",
+    "projects": "プロジェクト",
+    "skills": "スキル",
+    "contact": "コンタクト"
+  },
+  "hero": {
+    "eyebrow": "ポートフォリオ",
+    "catchphrase": "現場を知るAIロボット研究者",
+    "description": "工場の現場課題を原点に、AIロボットで自動化の未来を切り拓く。"
+  },
+  "sections": {
+    "story": "ストーリー",
+    "storySubtitle": "現場から研究室へ。",
+    "projects": "プロジェクト",
+    "projectsSubtitle": "これまでの制作物と研究。",
+    "featuredProjects": "主なプロジェクト",
+    "subProjects": "要素技術・成果物",
+    "skills": "技術スタック",
+    "skillsSubtitle": "使用している技術。",
+    "contact": "コンタクト",
+    "contactSubtitle": "お気軽にご連絡ください。"
+  },
+  "actions": {
+    "viewProjects": "プロジェクトを見る",
+    "viewGitHub": "GitHubを見る",
+    "sendEmail": "メールを送る"
+  }
+}

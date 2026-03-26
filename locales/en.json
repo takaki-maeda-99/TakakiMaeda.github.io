@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "story": "Story",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Portfolio",
+    "catchphrase": "AI Robotics Researcher with Factory Floor Experience",
+    "description": "From factory floor challenges to cutting-edge AI robotics — building the future of automation."
+  },
+  "sections": {
+    "story": "Story",
+    "storySubtitle": "From the factory to the lab.",
+    "projects": "Projects",
+    "projectsSubtitle": "Selected work and research.",
+    "featuredProjects": "Featured Projects",
+    "subProjects": "Element Technologies",
+    "skills": "Tech Stack",
+    "skillsSubtitle": "Technologies I work with.",
+    "contact": "Contact",
+    "contactSubtitle": "Feel free to reach out."
+  },
+  "actions": {
+    "viewProjects": "View Projects",
+    "viewGitHub": "View GitHub",
+    "sendEmail": "Send Email"
+  }
+}

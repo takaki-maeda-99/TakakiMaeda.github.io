@@ -1,0 +1,36 @@
+{
+  "events": [
+    {
+      "period": "20XX - 20XX",
+      "title": "工場設備保全",
+      "titleEn": "Factory Equipment Maintenance",
+      "description": "重労働、危険作業、人手不足を現場で経験。自動化の必要性を実感した。",
+      "descriptionEn": "Experienced heavy labor, dangerous work, and labor shortages firsthand. Realized the critical need for automation.",
+      "image": "/images/timeline/factory.jpg"
+    },
+    {
+      "period": "20XX",
+      "title": "退職・大学進学",
+      "titleEn": "Career Change & University",
+      "description": "高度で複雑な作業を自動化するにはAIロボットが必須と確信し、会社を退職。大学に進学。",
+      "descriptionEn": "Convinced that AI robotics is essential for automating complex tasks, quit the job and enrolled in university.",
+      "image": "/images/timeline/university.jpg"
+    },
+    {
+      "period": "20XX - 20XX",
+      "title": "ロボット開発・アプリ開発",
+      "titleEn": "Robotics & App Development",
+      "description": "ロボットコンテスト参加、Webアプリケーション開発、多数のプロジェクトを経験。",
+      "descriptionEn": "Participated in robotics competitions, developed web applications, and worked on numerous projects.",
+      "image": "/images/timeline/projects.jpg"
+    },
+    {
+      "period": "現在",
+      "title": "AIロボット研究",
+      "titleEn": "AI Robotics Research",
+      "description": "VLA等のAIロボット研究に取り組み、現場の自動化に貢献することを目指す。",
+      "descriptionEn": "Conducting AI robotics research including VLA, aiming to contribute to real-world automation.",
+      "image": "/images/timeline/research.jpg"
+    }
+  ]
+}

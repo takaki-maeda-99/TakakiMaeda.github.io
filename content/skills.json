@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "key": "robotics",
+      "label": "ロボティクス",
+      "labelEn": "Robotics",
+      "items": ["ROS2", "SLAM", "Control Engineering", "Gazebo", "MoveIt"]
+    },
+    {
+      "key": "ai",
+      "label": "AI / ML",
+      "labelEn": "AI / ML",
+      "items": ["PyTorch", "TensorFlow", "VLA", "Computer Vision"]
+    },
+    {
+      "key": "languages",
+      "label": "プログラミング言語",
+      "labelEn": "Programming Languages",
+      "items": ["Python", "C++", "TypeScript"]
+    },
+    {
+      "key": "web",
+      "label": "Web開発",
+      "labelEn": "Web Development",
+      "items": ["Next.js", "React", "Node.js"]
+    },
+    {
+      "key": "tools",
+      "label": "ツール / インフラ",
+      "labelEn": "Tools / Infra",
+      "items": ["Git", "Docker", "Linux", "CAD"]
+    }
+  ]
+}
