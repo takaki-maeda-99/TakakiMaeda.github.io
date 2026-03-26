@@ -1,0 +1,32 @@
+:root {
+  --ink: #1a1a2e;
+  --ink-2: #4a4a5a;
+  --bg: #f8f9fa;
+  --bg-alt: #eef1f5;
+  --accent: #2563eb;
+  --accent-2: #10b981;
+  --card: #ffffff;
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  --radius: 16px;
+  --radius-sm: 10px;
+  --max-width: 1100px;
+  --font-sans: 'Inter', 'Noto Sans JP', system-ui, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
