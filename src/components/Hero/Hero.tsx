@@ -14,7 +14,7 @@ export default function Hero() {
       <div>
         <div className={styles.eyebrow}>{locale.hero.eyebrow}</div>
         <h1 className={styles.name}>
-          {language === 'ja' ? '前田 貴輝' : 'Takaki Maeda'}
+          {language === 'ja' ? '前田 恭輝' : 'Takaki Maeda'}
         </h1>
         <p className={styles.catchphrase}>{locale.hero.catchphrase}</p>
         <p className={styles.description}>{locale.hero.description}</p>
