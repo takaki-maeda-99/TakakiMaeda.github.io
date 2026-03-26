@@ -154,3 +154,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 640px) {
+  .section {
+    padding: 60px 16px;
+  }
+}

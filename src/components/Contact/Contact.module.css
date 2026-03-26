@@ -44,3 +44,9 @@
 .icon {
   font-size: 18px;
 }
+
+@media (max-width: 640px) {
+  .section {
+    padding: 60px 16px 100px;
+  }
+}

@@ -83,8 +83,21 @@
 }
 
 @media (max-width: 640px) {
+  .section {
+    padding: 60px 16px;
+  }
+
+  .timeline {
+    padding-left: 24px;
+  }
+
   .item {
     grid-template-columns: 1fr;
+    padding: 18px;
+  }
+
+  .item::before {
+    left: -21px;
   }
 
   .itemImage {

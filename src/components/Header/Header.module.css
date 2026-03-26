@@ -44,11 +44,21 @@
 }
 
 @media (max-width: 640px) {
+  .inner {
+    padding: 12px 16px;
+  }
+
   .nav {
-    gap: 12px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
 
   .navLink {
     font-size: 13px;
+  }
+
+  .name {
+    font-size: 14px;
   }
 }
